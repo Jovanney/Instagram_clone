@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 200px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.header_login_form input[type=text],
+.header_login_form input[type=password]{
+    width: 266px;
+    height: 40px;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 5px;    
+    border-radius: 4px;
+    background-color: rgb(247, 242, 242);
+    
+    
+}
+
+.header_login_form input[type=submit]{
+    background-color: #0095f6;
+    width: 266px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0px;
+ 
+}
+.header_login_form{
+ padding-left: 58px;
+   
+}
+.Main_texto{
+    text-align: center;
+    color: rgb(152, 151, 151);
+    font-size: 13px;
+    border-bottom: 1px solid rgb(183, 180, 180); 
+    line-height: 0.1em;
+    margin: 23px 49px 20px;
+}
+.Main_texto span{
+    background:rgb(255, 255, 255); 
+    padding:0 20px; 
+}
+.Facebook img{
+    width: 18px;
+    margin-right: 10px;
+    margin-left: 70px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: rgb(4, 4, 177);   
+}
+a:visited{
+    color: rgb(4, 4, 177); 
+}
+.Main_esqsenha{
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(247, 242, 242);
+}
+
+.main{
+    background-color: white;
+    border: 2px solid rgb(200, 200, 200);
+    margin: 45px auto;
+    max-width: 380px;
+
+}
