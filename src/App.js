@@ -19,9 +19,9 @@ function App() {
         </div>
         <div className="header_login_form" >
             <form >
-                <input type="text" placeholder="Número de telemóvel, nome de utulizador ou..."/> 
-                <input type="password" placeholder="Palavra-passe"/>
-                <input type="submit" name="acao" value="Iniciar Sessão"/>
+                <input type="text" placeholder="Telefone,nome de usuário ou email"/> 
+                <input type="password" placeholder="Senha"/>
+                <input type="submit" name="acao" value="Entrar"/>
             </form>
         </div>
         <div className='Main_texto'>
@@ -31,10 +31,18 @@ function App() {
             <a href='#'><img src='https://cdn-icons-png.flaticon.com/512/124/124010.png'></img><span>Iniciar sessão com o Facebook</span></a>
         </div>
         <div className='Main_esqsenha'>
-          Esqueceste-te da palavra-passe?
+          Esqueceu a senha?
         </div>
-
       </div>
+      <div className='create_acount' >
+        <p>Não tem uma conta? <a href='#'>Cadastre-se</a></p>
+      </div>
+      <div className='get_app'>
+        <p>Obtenha o aplicativo.</p>
+        <a href='#'><img src='https://static.cdninstagram.com/rsrc.php/v3/y_/r/tUzYKZ-xrQK.png'></img></a>
+        <a href='#'><img src='https://static.cdninstagram.com/rsrc.php/v3/yE/r/QQnPXT5YsC4.png'></img></a>
+      </div>
+      
     </div>
   );
 }
