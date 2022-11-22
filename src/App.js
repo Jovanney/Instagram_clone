@@ -4,6 +4,7 @@ import {db} from './firebase.js';
 import {useEffect, useState} from 'react';
 
 
+
 function App() {
   const [user, sertUser] = useState(null); //para saber qual tela devemos mostrar ao usuário, se ele está logado ou n 
  
@@ -42,8 +43,18 @@ function App() {
         <a href='#'><img src='https://static.cdninstagram.com/rsrc.php/v3/y_/r/tUzYKZ-xrQK.png'></img></a>
         <a href='#'><img src='https://static.cdninstagram.com/rsrc.php/v3/yE/r/QQnPXT5YsC4.png'></img></a>
       </div>
-      
-    </div>
+      <div className='MobileHide'>
+          <div className='container_img'>
+              <div className='Imgback'>
+                  <img src='https://imageup.me/images/projetoins.jpeg'></img>
+              </div>
+          </div>
+      </div>
+      <div className='Imgfront'>
+        <img src='https://imageup.me/images/fca67d8c-c14e-4abe-81ef-b65413a52823.png'></img>
+      </div>
+      </div>
+ 
   );
 }
 

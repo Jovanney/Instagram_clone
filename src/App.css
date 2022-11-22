@@ -70,6 +70,10 @@ a::after{
     color: #385185;
 }
 
+.Facebook a{
+    color: #385185;
+} 
+
 .Main_esqsenha{
     text-align: center;
     font-size: 12px;
@@ -110,9 +114,26 @@ a::after{
 .get_app{
     text-align: center;
 }
+.MobileHide{
+    display: inline;
+}
+.MobileHide > .container_img > .Imgback{
+    margin-top: -580px;
+    margin-left: 90px;
+   
+}
+.MobileHide > .container_img > .Imgback img {
+    width: 425px;
+}
+.Imgfront{
 
-body{
-    background-color: #fafafa;
+    margin-top: -562px;
+    margin-left: 242px;
+}
+.Imgfront img{
+width: 248px;
+height: 522px;
+ 
 }
 
 .main{
@@ -122,3 +143,18 @@ body{
     max-width: 380px;
 
 }
+body{
+    background-color: #fafafa;
+}
+
+@media(max-width:1450px){
+    .MobileHide{
+        display: none;
+    }   
+    .Imgfront{
+        display: none;
+    }
+
+}
+
+
