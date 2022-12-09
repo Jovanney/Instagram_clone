@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header_logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 200px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.header_login_form input[type=text],
+.header_login_form input[type=password]{
+    width: 266px;
+    height: 40px;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 5px; 
+    border: 1px solid #dbdbdb;   
+    border-radius: 4px;
+    background-color: #fafafa;
+    
+    
+}
+
+.header_login_form input[type=submit]{
+    background-color: #0095f6;
+    width: 266px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0px;
+ 
+}
+.header_login_form{
+ padding-left: 58px;
+   
+}
+
+.Modalupload{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+.FormUpload{
+  max-width: 500px;
+  height: 550px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  margin-top: 70px;
+
+}
+.Modalupload h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dbdbdb;
+  height: 45px;
+  font-weight: 600;
+  
+}
+.Modalupload img{
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+.Modalupload p{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 300;
+}
+input[type='file'] {
+  display: none;
+}
+
+#botaopostarfoto {
+  border: 0;
+  background-color: white;
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -327px;
+  
+  
+}
+#progress-upload{
+  margin-top: 150px;
+  width: 100%;
+}
+
+/* Aparência que terá o seletor de arquivo */
+label {
+  background-color: #0095f6;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  
+}
+.FormUpload label{
+ margin-left: 158px;
+}
+
+.close-modal-post{
+  position: absolute;
+  color: #9c9c8e;
+  top:  0;
+  color: white;
+  right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Main_texto{
+    text-align: center;
+    color: rgb(152, 151, 151);
+    font-size: 13px;
+    border-bottom: 1px solid rgb(183, 180, 180); 
+    line-height: 0.1em;
+    margin: 23px 49px 20px;
+}
+.Main_texto span{
+    background:rgb(255, 255, 255); 
+    padding:0 20px; 
+}
+.Facebook img{
+    width: 18px;
+    margin-right: 10px;
+    margin-left: 70px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #385185;  
+    font-weight: 500;
+}
+a::after{
+    color: #385185;
+}
+
+.Facebook a{
+    color: #385185;
+} 
+
+.Main_esqsenha{
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
+    cursor: pointer;
+    color: #385185;
+}
+.create_acount{
+    background-color: white;
+    max-width: 380px;
+    text-align: center;
+    margin: -35px auto;
+    padding: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    font-size: 14px;
+}
+.create_acount a{
+    color: #00acf9;
+}
+
+.get_app p{
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+    font-weight: 350;
+    font-size: 14px;
+}
+.get_app img{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    margin-top: 20px;
+    height: 35px;
+    
+}
+.get_app{
+    text-align: center;
+}
+.MobileHide{
+    display: inline;
+}
+.MobileHide > .container_img > .Imgback{
+    margin-top: -580px;
+    margin-left: 70px;
+   
+}
+.MobileHide > .container_img > .Imgback img {
+    width: 425px;
+}
+.Imgfront{
+
+    margin-top: -562px;
+    margin-left: 222px;
+}
+.Imgfront img{
+width: 248px;
+height: 522px;
+ 
+}
+
+.main{
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    margin: 45px auto;
+    max-width: 380px;
+
+}
+body{
+    background-color: #fafafa;
+}
+
+
+
+footer{
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+  
+}
+.linkswithline a{
+    color: #9c9c8e;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 12px;
+
+}
+.linkswithline a:hover{
+    text-decoration: underline;
+}
+.end a::after{
+    color: #9c9c8e;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* White */
+    border-right: 1px solid #dbdbdb;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    max-width: 190px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 22px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    
+
+  }
+  .sidenav > a > img{
+    width: 18px;
+    margin-right: 10px;
+    margin-top: 8px;
+    }
+    .sidenav > a > span{
+        font-size: 15px;
+        font-weight: 430;
+        }
+
+    #maisnav{
+        margin-top: 60px;
+    }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background-color: #fafafa;
+    border-radius: 15px;
+    
+  }
+  .instagramlogo  img{
+    width: 95px;
+    
+  }
+  .instagramlogo{
+    margin-left: 32px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 95px;
+  }
+  .bottomnav, .topnav{
+    display: none;
+  }
+  .bottomnav {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: white; /* White */
+    border-top: 1px solid #dbdbdb;
+    height: 50px;
+  }
+  .bottomnav img{
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 12%;
+  }
+  .bottomnav a{
+    align-items: center;
+  }
+  .topnav{
+    overflow: hidden;
+    border-bottom: 1px solid #dbdbdb;
+    background: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */ 
+    max-height: 55px;
+  }
+  .instagramlogotop{
+    margin: 20px 35px 20px 13px;
+    cursor: pointer;
+    width: 95px;
+  }
+  #pesquisarbarra{
+    padding-top: 20px;
+  }
+
+  
+  .topnav > input{
+    width: 250px;
+    height: 30px;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 8px;
+    
+  }
+
+.topnav  input::laceholder{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+  
+  .instagramlogotop img{
+    width: 95px;
+  }
+  #notificacoes img{
+    width: 24px;
+    margin-left: 22px;
+    margin-bottom: 4px;
+  }
+  #notificacoes img:hover{
+    width: 25px;
+    
+  }
+
+  .instagramlogotop, .topnav input{
+    display: inline-block;
+  }
+.stories{
+    width: 430px;
+    max-width: 500px;
+    height: 90px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #efefef;
+    margin: 20px auto;
+}
+.userstories{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.userstories img{
+    width: 55px;
+    margin-right: 12px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%);
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Main{
+    width: 430px;
+    max-width: 500px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #efefef;
+    margin: 1px auto;
+
+}
+.Main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 350px;
+}
+.rightmenu{
+  margin-top: -1110px; 
+  position: absolute;
+  right: 0;
+  margin-right: 13%;  
+  width: 330px;
+  height: 400px;
+}
+.User{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  
+}
+.User img{
+  width: 55px;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+.User p{
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: -20px;
+  cursor: pointer;
+
+}
+.User a{
+  font-size: 12px;
+  color: #0095f6;
+  margin-left: 143px;
+
+}
+#nameperfil{
+  font-weight: 440;
+  color: #9c9c8e;
+  cursor: auto;
+  margin-top: 15px;
+  margin-left: -99px;
+}
+.sugestoes{
+  display: flex;
+  gap: 163px;
+}
+.sugestoes p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #9c9c8e;
+}
+.sugestoes a{
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.perfilsugestao{
+  width: 100%;
+  height: 40px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.perfilsugestao img{
+  width: 33px;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+.perfilsugestao p{
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: -20px;
+  cursor: pointer;
+
+}
+.perfilsugestao a{
+  font-size: 12px;
+  color: #0095f6;
+  margin-left: 190px;
+
+}
+#nomesugestao{
+  font-weight: 440;
+  color: #9c9c8e;
+  cursor: auto;
+  margin-bottom: -35px;
+  margin-left: -41px;
+}
+.aboutright{
+  margin-top: 150px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.aboutright a {
+  color: #cdcdcd;
+  margin-right: 4px;
+  font-weight: 400;
+  
+}
+#aboutme{
+  margin-top: 15px;
+  color: #cdcdcd;
+  margin-right: 4px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.aboutright a:hover {
+  text-decoration: underline;
+  
+}
+
+@media(max-width:1350px){
+.MobileHide, .Imgfront, .sidenav, .rightmenu{
+    display: none;
+}   
+.bottomnav, .topnav{
+    display: block;
+}
+.stories, .Main{
+    margin: 70px auto;
+    width: 430px;
+}
+}
+  

@@ -1,0 +1,50 @@
+.textcenter{
+    margin: 0 auto;
+    color: #959795;
+    width: 220px;
+    font-weight: 600;
+}
+.Facebook2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    width: 260px;
+    height: 32px;
+    font-weight: 500;
+    color: white;
+    margin: 10px auto;
+    border-radius: 4px;
+    font-size: 14px;
+    gap: 4px;
+    cursor: pointer;
+}
+.Facebook2 img{
+    width: 16px;
+}
+.textocrirarconta{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #959795;
+    width: 250px;
+    
+}
+.textocrirarconta a::after{
+    animation: none;
+    color: #959795;
+    
+}
+.textocrirarconta a{
+    color: #959795;
+}
+
+#texto2{
+    margin-top: 20px;
+}
+#pointer{
+    cursor: pointer;
+}
+.espaco{
+    height: 40px;
+}
