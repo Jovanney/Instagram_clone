@@ -1,3 +1,3 @@
 # Instagram_clone
-Instagram Completo feito em React e utilizando Firebase.
+Instagram Completo feito com React e Firebase.
 
